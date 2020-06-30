@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a97df8300b3ba54e9040d7e37779ace, type: 3}
+  m_Name: Guess
+  m_EditorClassIdentifier: 
+  guess:
+  - _QuesAns: CHINA
+    buzz:
+    - Kung fu
+    - Silk route
+    - Yellow river
+    Clue:
+    - Invented paper, silk, and gunpowder
+    - They built a long wall to prevent Mongol invasion
+    - Tibet is a part of this country
+    Facts:
+    - 'Hong Kong '
+    - Shanghai
+    - Beijing
+    - Chongqing
+  - _QuesAns: SOUTH AFRICA
+    buzz:
+    - Apartheid
+    - Diamonds
+    - Zulu
+    Clue:
+    - Gandhi started his career here
+    - 'Zulus are one of the ethnic groups in this country '
+    - This country forms the tip of the second largest continent on the planet
+    Facts:
+    - Durban
+    - East London
+    - Bloemfontein
+    - Cape town
+  - _QuesAns: BRAZIL
+    buzz:
+    - ' Football'
+    - Amazon
+    - Rio Carnival
+    Clue:
+    - 'Biggest country in South America '
+    - Home to the largest river in the world
+    - Known for its rain forests
+    Facts:
+    - Brasilia
+    - Fortaleza
+    - Manaus
+    - Curitiba
+  - _QuesAns: EGYPT
+    buzz:
+    - Pharoah
+    - Sphinx
+    - Suez Canal
+    Clue:
+    - ' Cleopatra ruled this region'
+    - ' Home to the longest river in the world'
+    - Known for the large tombs built by ancient kings
+    Facts:
+    - Alexandria
+    - Cairo
+    - Edfu
+    - Egyptian Museum
+  - _QuesAns: SAUDI ARABIA
+    buzz:
+    - Hajj
+    - Oil
+    - Bedouins
+    Clue:
+    - ' Prophet Mohammed was born here'
+    - 'Rub'' al Khali desert is in this country '
+    - ' Largest exporter of oil'
+    Facts:
+    - ' Riyadh'
+    - Mecca
+    - Jeddah
+    - Taif
+  - _QuesAns: AUSTRALIA
+    buzz:
+    - Kangaroo
+    - Uluru
+    - Cricket
+    Clue:
+    - Smallest continent in earth
+    - 'Convicts from Britain were transported to this country in the 18th and 19th
+      centuries. '
+    - Home to a large number of marsupials.
+    Facts:
+    - Sydney
+    - Melbourne
+    - Gold Coast
+    - Canberra
+  - _QuesAns: ITALY
+    buzz:
+    - Pizza
+    - Colosseum
+    - Alps
+    Clue:
+    - 'Leonardo da Vinci was born here '
+    - 'Fast car companies like Ferrari and Lamborghini have headquarters here. '
+    - ' Pasta originated here'
+    Facts:
+    - Rome
+    - Venice
+    - Verona
+    - Florence
+  - _QuesAns: UNITED KINGDOM
+    buzz:
+    - ' Fish & Chips'
+    - The Queen
+    - Chicken tikka masala
+    Clue:
+    - The world renowned playwright Shakespeare was born here
+    - Was the world super power before world war 2
+    - 'Gibraltar is part of this country '
+    Facts:
+    - London
+    - Edinburgh
+    - Birmingham
+    - Oxford
+  - _QuesAns: VIETNAM
+    buzz:
+    - Pho
+    - Tet holiday
+    - Hanoi
+    Clue:
+    - ' Fought a war with USA and won'
+    - Was colonized by France till 1954
+    - World renowned Pho noodles is from this country
+    Facts:
+    - Hue
+    - Dalat
+    - Ho Chi Minh City
+    - Phan Thiet
+  - _QuesAns: USA
+    buzz:
+    - Superpower
+    - Capitalism
+    - Silicon valley
+    Clue:
+    - ' Became the world superpower after World War 2'
+    - Martin Luther King was from this country
+    - Largest economy in the world
+    Facts:
+    - New York
+    - Los Angeles
+    - Chicago
+    - Phoenix
