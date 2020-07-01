@@ -4,16 +4,14 @@ using UnityEngine;
 
 namespace Guessframework
 {
-
     [System.Serializable]
     public class Guess
     {
         public string _QuesAns;
+        public Sprite img;
         public List<string> buzz;
         public List<string> Clue;
         public List<string> Facts;
-
     }
-
 }
 

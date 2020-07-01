@@ -5,16 +5,18 @@ using UnityEngine.UI;
 using TMPro;
 using Guessframework;//arthi
 using UnityEngine.SceneManagement;
+
 public class GameplayManager : MonoBehaviour
 {
-    public TextMeshProUGUI Buzztxt1, Buzztxt2;
+   /*
+     public TextMeshProUGUI Buzztxt1, Buzztxt2;
     public List<string> _buzzkeyword; 
     public Button[] _Cluebtn;
     public TMP_InputField _displaytxt;
     int _buzzval;
     public List<string> _emptyclue;
 
-  [SerializeField] GussInQues QuesUi;
+  [SerializeField] GuessCity QuesUi;
   public List<Guess> listAvailable = new List<Guess>();
     int rand;
     public string _checkstr;
@@ -71,4 +73,5 @@ public class GameplayManager : MonoBehaviour
     {
         SceneManager.LoadScene("GussInGame");
     }
+    */
 }

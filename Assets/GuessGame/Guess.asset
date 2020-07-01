@@ -27,6 +27,7 @@ MonoBehaviour:
     - Shanghai
     - Beijing
     - Chongqing
+    img: {fileID: 21300000, guid: 8b17d54a1c2ad1a45ada6d150b860a12, type: 3}
   - _QuesAns: SOUTH AFRICA
     buzz:
     - Apartheid
@@ -41,6 +42,7 @@ MonoBehaviour:
     - East London
     - Bloemfontein
     - Cape town
+    img: {fileID: 21300000, guid: 803d24eba71e77e4a83bd61522c57431, type: 3}
   - _QuesAns: BRAZIL
     buzz:
     - ' Football'
@@ -55,6 +57,7 @@ MonoBehaviour:
     - Fortaleza
     - Manaus
     - Curitiba
+    img: {fileID: 21300000, guid: 94426c431930c8847a19a0a0cae21ea6, type: 3}
   - _QuesAns: EGYPT
     buzz:
     - Pharoah
@@ -69,6 +72,7 @@ MonoBehaviour:
     - Cairo
     - Edfu
     - Egyptian Museum
+    img: {fileID: 21300000, guid: 1f5ea27cfe4d01b479353bb289aed529, type: 3}
   - _QuesAns: SAUDI ARABIA
     buzz:
     - Hajj
@@ -83,6 +87,7 @@ MonoBehaviour:
     - Mecca
     - Jeddah
     - Taif
+    img: {fileID: 21300000, guid: 15f5d572f5737534eba58712a396f6ef, type: 3}
   - _QuesAns: AUSTRALIA
     buzz:
     - Kangaroo
@@ -98,6 +103,7 @@ MonoBehaviour:
     - Melbourne
     - Gold Coast
     - Canberra
+    img: {fileID: 21300000, guid: ae1bd843997206e40a8b256c0b40a4e1, type: 3}
   - _QuesAns: ITALY
     buzz:
     - Pizza
@@ -112,6 +118,7 @@ MonoBehaviour:
     - Venice
     - Verona
     - Florence
+    img: {fileID: 21300000, guid: 4f1d4a3eacf2fcd4dbca5757ece23555, type: 3}
   - _QuesAns: UNITED KINGDOM
     buzz:
     - ' Fish & Chips'
@@ -126,6 +133,7 @@ MonoBehaviour:
     - Edinburgh
     - Birmingham
     - Oxford
+    img: {fileID: 21300000, guid: 756f3bdc0d85b984696853879f338ba2, type: 3}
   - _QuesAns: VIETNAM
     buzz:
     - Pho
@@ -140,6 +148,7 @@ MonoBehaviour:
     - Dalat
     - Ho Chi Minh City
     - Phan Thiet
+    img: {fileID: 21300000, guid: 6378af7e3d52226418fdf67eee955400, type: 3}
   - _QuesAns: USA
     buzz:
     - Superpower
@@ -154,3 +163,4 @@ MonoBehaviour:
     - Los Angeles
     - Chicago
     - Phoenix
+    img: {fileID: 21300000, guid: 2dc665f64e596aa42af956dcfba10c80, type: 3}
