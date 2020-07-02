@@ -6,11 +6,22 @@ using TMPro;
 using Guessframework;//arthi
 using UnityEngine.SceneManagement;
 
-public class CardDetails : MonoBehaviour
+public class CardManager : MonoBehaviour
 {
-    [SerializeField] GuessAns CityQues;
-    [SerializeField] GuessAns AnimalQues;
-    [SerializeField] GuessAns BirdQues;
+    #region PRIVATE VARIABLES
+
+    [SerializeField] GuessAns[] Quesses;
+    [SerializeField] string[] Title;
+    [SerializeField] Color[] ThemeColor;
+
+    private GameHandler _gameHandler;
+
+    #endregion
+
+    #region PUBLIC VARIABLES
+
+    public TextMeshProUGUI _title;
+    public Image[] themed;
 
     public TextMeshProUGUI[] BuzzTxt;
     public TextMeshProUGUI ShowAns;
@@ -25,14 +36,23 @@ public class CardDetails : MonoBehaviour
     public delegate void AnsGuessed();
     public static AnsGuessed OnAnsGuessed;
 
+    #endregion
+
+    #region DEFAULT METHODS
+
     private void Awake()
     {
         next.onClick.AddListener(NextCard);
+        _gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
     }
 
     private void Start()
     {
-        listAvailable = new List<Guess>(CityQues.guess);
+        listAvailable = new List<Guess>(Quesses[_gameHandler.sceneId].guess);
+        _title.text = Title[_gameHandler.sceneId];
+
+        for (int i = 0; i < themed.Length; i++) themed[i].color = ThemeColor[_gameHandler.sceneId];
+
         NextCard();
     }
 
@@ -40,6 +60,8 @@ public class CardDetails : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
     }
+
+    #endregion
 
     void NextCard()
     {
@@ -73,6 +95,6 @@ public class CardDetails : MonoBehaviour
     // Reset Game
     public void Loadscene()
     {
-        SceneManager.LoadScene("Playpage");
+        SceneManager.LoadScene(0);
     }
 }
