@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Guessframework
 {
-    [CreateAssetMenu(fileName = "Guess", menuName = "GuessGame/City")]
+    [CreateAssetMenu(fileName = "Guess", menuName = "GuessGame/Guess")]
 
     public class GuessAns : ScriptableObject
     {

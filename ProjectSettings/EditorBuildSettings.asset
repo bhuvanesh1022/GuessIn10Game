@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Playpage.unity
+    path: Assets/Scenes/Wrapper.unity
     guid: e5439fc5b7ef86b4eba29df9aec48c66
   - enabled: 1
-    path: Assets/Scenes/CardDesign.unity
+    path: Assets/Scenes/Guess.unity
     guid: c76e0019cecc5da479dfc8f4047c86ce
   m_configObjects: {}
