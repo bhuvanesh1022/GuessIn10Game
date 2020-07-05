@@ -18,48 +18,68 @@ MonoBehaviour:
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
     Clue: []
     Facts: []
+    availablity:
+      type: 0

@@ -3,26 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    public static UIManager UIM;
-
+    public PopupManager popupManager;
+    public TextMeshProUGUI pencilCountText;
 
     private void Update()
     {
+        pencilCountText.text = GameHandler.gameHandler.pencils.ToString();
+
         if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
     }
-
-    // loadscene-
+        
     public void LoadingScene(int id)
     {
         GameHandler.gameHandler.sceneId = id;
         SceneManager.LoadScene(1);
-    }
-
-    public void LoadLogin()
-    {
-
-    }
 }
