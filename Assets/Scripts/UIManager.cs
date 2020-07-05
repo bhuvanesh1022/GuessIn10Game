@@ -16,19 +16,9 @@ public class UIManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
     }
-
-    public void LoadingPage(int id)
+        
+    public void LoadingScene(int id)
     {
-        Debug.Log(GameHandler.gameHandler.buttons[id].available + "id" + id);
-
-        if (GameHandler.gameHandler.buttons[id].available)
-        {
-            GameHandler.gameHandler.sceneId = id;
-            SceneManager.LoadScene(1);
-        }
-        else
-        {
-            popupManager.ToUnlockGuess(id);
-        }
-    }
+        GameHandler.gameHandler.sceneId = id;
+        SceneManager.LoadScene(1);
 }

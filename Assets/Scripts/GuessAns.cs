@@ -10,5 +10,4 @@ namespace Guessframework
     {
         public List<Guess> guess;
     }
-    
 }
