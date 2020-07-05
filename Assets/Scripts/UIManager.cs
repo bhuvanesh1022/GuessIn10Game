@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
     }
 
-    // load scene
+    // loadscene-
     public void LoadingScene(int id)
     {
         GameHandler.gameHandler.sceneId = id;
