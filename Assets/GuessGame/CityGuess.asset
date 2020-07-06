@@ -13,154 +13,153 @@ MonoBehaviour:
   m_Name: CityGuess
   m_EditorClassIdentifier: 
   guess:
-  - _QuesAns: CHINA
-    img: {fileID: 21300000, guid: 8b17d54a1c2ad1a45ada6d150b860a12, type: 3}
+  - _QuesAns: NewDelhi
+    img: {fileID: 21300000, guid: b0ae9e1106fd57543918732084cf5a73, type: 3}
     buzz:
-    - Kung fu
-    - Silk route
-    - Yellow river
+    - Red fort
+    - Yamuna
+    - Mughals
     Clue:
-    - Invented paper, silk, and gunpowder
-    - They built a long wall to prevent Mongol invasion
-    - Tibet is a part of this country
+    - Timur invaded city in the 14th centurary.
+    - Home to Indragandhi international airport
+    - In the ancient times, it was called indraprastha
     Facts:
-    - 'Hong Kong '
-    - Shanghai
-    - Beijing
-    - Chongqing
-  - _QuesAns: SOUTH AFRICA
-    img: {fileID: 21300000, guid: 803d24eba71e77e4a83bd61522c57431, type: 3}
+    - Agra
+    - Mumbai
+    - NewDelhi
+    - Lucknow
+  - _QuesAns: London
+    img: {fileID: 21300000, guid: 4eb54df8703ff114cbd459b759277739, type: 3}
     buzz:
-    - Apartheid
-    - Diamonds
-    - Zulu
+    - Thames
+    - Bigben
+    - Paddington Station
     Clue:
-    - Gandhi started his career here
-    - 'Zulus are one of the ethnic groups in this country '
-    - This country forms the tip of the second largest continent on the planet
+    - Capital of the empire were the sun never sets.
+    - Home to westminster abbey.
+    - The Nazis bombed this city during ww2.
     Facts:
-    - Durban
-    - East London
-    - Bloemfontein
-    - Cape town
-  - _QuesAns: BRAZIL
-    img: {fileID: 21300000, guid: 94426c431930c8847a19a0a0cae21ea6, type: 3}
+    - Manchester
+    - Belfast
+    - Dubline
+    - London
+  - _QuesAns: New York
+    img: {fileID: 21300000, guid: 480809bc36ebc0c468fcc3afea4ee109, type: 3}
     buzz:
-    - ' Football'
-    - Amazon
-    - Rio Carnival
+    - Big Apple
+    - Hudson River
+    - Wall Street
     Clue:
-    - 'Biggest country in South America '
-    - Home to the largest river in the world
-    - Known for its rain forests
+    - The infamous 9/11 incident happened this city.
+    - This is America's largest city.
+    - Home to central park and statue of liberty.
     Facts:
-    - Brasilia
-    - Fortaleza
-    - Manaus
-    - Curitiba
-  - _QuesAns: EGYPT
-    img: {fileID: 21300000, guid: 1f5ea27cfe4d01b479353bb289aed529, type: 3}
+    - Chicago
+    - Seattle
+    - New York
+    - San Jose
+  - _QuesAns: 'Sydney '
+    img: {fileID: 21300000, guid: d03b633128ea69c4a92181e807c6bb8e, type: 3}
     buzz:
-    - Pharoah
-    - Sphinx
-    - Suez Canal
+    - Opera House
+    - Finding Nimo
+    - Kangaroo
     Clue:
-    - ' Cleopatra ruled this region'
-    - ' Home to the longest river in the world'
-    - Known for the large tombs built by ancient kings
+    - This is a harbour city.
+    - This is the largest city in australia
+    - River darling trains in the city.
     Facts:
-    - Alexandria
-    - Cairo
-    - Edfu
-    - Egyptian Museum
-  - _QuesAns: SAUDI ARABIA
-    img: {fileID: 21300000, guid: 15f5d572f5737534eba58712a396f6ef, type: 3}
+    - Melbourne
+    - Canberra
+    - Cydney
+    - Perth
+  - _QuesAns: Paris
+    img: {fileID: 21300000, guid: 92ad5ee11a8409b4dab20701f29c468a, type: 3}
+    buzz:
+    - Eiffel Tower
+    - Pantheon
+    - Sienne and marne
+    Clue:
+    - This is the cultural capital of world.
+    - The french revolution started in here.
+    - 'Named after a homeric character . '
+    Facts:
+    - Paris
+    - Toulon
+    - Nice
+    - Lyon
+  - _QuesAns: "\u0130stanbul"
+    img: {fileID: 21300000, guid: 1a9a0715a39b18540b38dcc531cacfc2, type: 3}
+    buzz:
+    - Ottoman
+    - Constantinople
+    - Hagia Sophia
+    Clue:
+    - This city links asia with europe.
+    - The Ottomans capture this city in 1453.
+    - This city Lies in the bosphorus Strait.
+    Facts:
+    - Ankara
+    - Irbil
+    - Antalya
+    - Istinbul
+  - _QuesAns: Kolkata
+    img: {fileID: 21300000, guid: 8128a43def1fecc4c800a473e533333e, type: 3}
+    buzz:
+    - Hooghly
+    - Fort Wiliam's
+    - Howra Bridge
+    Clue:
+    - This was the capital of india before NewDelhi.
+    - Its initial name was Kalikata.
+    - This was the centre of Bengal renaissance.
+    Facts:
+    - Kolkata
+    - Dhaka
+    - Mumbai
+    - Chennai
+  - _QuesAns: Mecca
+    img: {fileID: 21300000, guid: fdb0ac773f7742240ab609d058d29a5a, type: 3}
     buzz:
     - Hajj
-    - Oil
-    - Bedouins
+    - Kabala
+    - Islam
     Clue:
-    - ' Prophet Mohammed was born here'
-    - 'Rub'' al Khali desert is in this country '
-    - ' Largest exporter of oil'
+    - Prophet Mohammed was born in this city.
+    - This is a holy city for the Muslims.
+    - Is located in present day Saudi Arabia.
     Facts:
-    - ' Riyadh'
-    - Mecca
-    - Jeddah
+    - Medina
     - Taif
-  - _QuesAns: AUSTRALIA
-    img: {fileID: 21300000, guid: ae1bd843997206e40a8b256c0b40a4e1, type: 3}
+    - Riyadh
+    - Mecca
+  - _QuesAns: Jerusalem
+    img: {fileID: 21300000, guid: a4013fbda4f826a4f9156c7b246bf1e0, type: 3}
     buzz:
-    - Kangaroo
-    - Uluru
-    - Cricket
+    - Knesset
+    - Dome of the Rock
+    - 'Palestine '
     Clue:
-    - Smallest continent in earth
-    - 'Convicts from Britain were transported to this country in the 18th and 19th
-      centuries. '
-    - Home to a large number of marsupials.
+    - Is a holy city to Jews, Muslims, and Christians .
+    - The crusades were fought over the control of this city.
+    - Is a disputed city between Israel and Palestine.
     Facts:
-    - Sydney
-    - Melbourne
-    - Gold Coast
-    - Canberra
-  - _QuesAns: ITALY
-    img: {fileID: 21300000, guid: 4f1d4a3eacf2fcd4dbca5757ece23555, type: 3}
+    - Jerusalem
+    - Hadera
+    - Bethlehem
+    - Haifa
+  - _QuesAns: Cairo
+    img: {fileID: 21300000, guid: bfe1e29c7f6d2fe48b516db7c92da055, type: 3}
     buzz:
-    - Pizza
-    - Colosseum
-    - Alps
+    - Pyramids
+    - Nile
+    - Arab League
     Clue:
-    - 'Leonardo da Vinci was born here '
-    - 'Fast car companies like Ferrari and Lamborghini have headquarters here. '
-    - ' Pasta originated here'
+    - This city was founded by the Fatimid dynasty.
+    - The Pyramid of Giza is located near this city.
+    - Largest city in the Arab world.
     Facts:
-    - Rome
-    - Venice
-    - Verona
-    - Florence
-  - _QuesAns: UNITED KINGDOM
-    img: {fileID: 21300000, guid: 756f3bdc0d85b984696853879f338ba2, type: 3}
-    buzz:
-    - ' Fish & Chips'
-    - The Queen
-    - Chicken tikka masala
-    Clue:
-    - The world renowned playwright Shakespeare was born here
-    - Was the world super power before world war 2
-    - 'Gibraltar is part of this country '
-    Facts:
-    - London
-    - Edinburgh
-    - Birmingham
-    - Oxford
-  - _QuesAns: VIETNAM
-    img: {fileID: 21300000, guid: 6378af7e3d52226418fdf67eee955400, type: 3}
-    buzz:
-    - Pho
-    - Tet holiday
-    - Hanoi
-    Clue:
-    - ' Fought a war with USA and won'
-    - Was colonized by France till 1954
-    - World renowned Pho noodles is from this country
-    Facts:
-    - Hue
-    - Dalat
-    - Ho Chi Minh City
-    - Phan Thiet
-  - _QuesAns: USA
-    img: {fileID: 21300000, guid: 2dc665f64e596aa42af956dcfba10c80, type: 3}
-    buzz:
-    - Superpower
-    - Capitalism
-    - Silicon valley
-    Clue:
-    - ' Became the world superpower after World War 2'
-    - Martin Luther King was from this country
-    - Largest economy in the world
-    Facts:
-    - New York
-    - Los Angeles
-    - Chicago
-    - Phoenix
+    - Luxor
+    - Cairo
+    - Giza
+    - Alexandria

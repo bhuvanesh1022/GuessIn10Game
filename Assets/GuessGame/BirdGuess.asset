@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BirdGuess
   m_EditorClassIdentifier: 
   guess:
+<<<<<<< Updated upstream
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
@@ -93,3 +94,155 @@ MonoBehaviour:
     availablity:
       isAvailable: 0
       type: 0
+=======
+  - _QuesAns: Bald Eagle
+    img: {fileID: 21300000, guid: 71a1abe1657607b4bb325faa757363c3, type: 3}
+    buzz:
+    - Patriot
+    - USA
+    - Carnivores
+    Clue:
+    - National bird of the USA
+    - They are known for their white head
+    - "They\u2019re found all over the North American continent"
+    Facts:
+    - Emu
+    - Penguins
+    - Bald Eagle
+    - Turkey
+  - _QuesAns: Ostrich
+    img: {fileID: 21300000, guid: cbb7cdc1f6ffaee4eafc09c82cbfd7ae, type: 3}
+    buzz:
+    - Flightless
+    - Africa
+    - runners
+    Clue:
+    - They are the largest birds in the world that can run up to 45 mph
+    - "They are found across Africa\u2019s savannahs "
+    - They lay the largest eggs in the world
+    Facts:
+    - Woodpeckers
+    - Ostrich
+    - Owls
+    - Peacock
+  - _QuesAns: Penguins
+    img: {fileID: 21300000, guid: fb756c2ffe471ec42b992cd8a4b88df6, type: 3}
+    buzz:
+    - Flightless
+    - seabirds
+    - Antarctica
+    Clue:
+    - They are primarily found in the southern hemisphere
+    - They are flightless and have a distinct walk
+    - 'Some of the sub-species are Emperor, King, and Adelie '
+    Facts:
+    - Penguins
+    - Emu
+    - Woodpeckers
+    - Turkey
+  - _QuesAns: Owls
+    img: {fileID: 21300000, guid: 092bc928c5418c843ab1b8563d340b45, type: 3}
+    buzz:
+    - Nocturnal
+    - Parliament
+    - Hoot
+    Clue:
+    - 'They are carnivorous birds that hunt at night '
+    - 'They are associated with wisdom '
+    - A group of these birds are called a Parliament
+    Facts:
+    - Bald Eagle
+    - Owls
+    - Emu
+    - Ostrich
+  - _QuesAns: Emu
+    img: {fileID: 21300000, guid: d94be3588cbbb6049ae4d961281fe4b4, type: 3}
+    buzz:
+    - Flightless
+    - Australia
+    - war with humans
+    Clue:
+    - The Australian government waged a war against them and lost
+    - They along with Kangaroos adorn the Australian coat of arms
+    - They are the second largest flightless birds after Ostriches
+    Facts:
+    - Emu
+    - owls
+    - Chicken
+    - Ducks
+  - _QuesAns: Humming Birds
+    img: {fileID: 21300000, guid: 9f90dc89139bd564794993acb5f7d701, type: 3}
+    buzz:
+    - Nectar
+    - wings
+    - small
+    Clue:
+    - They are one of the smallest bird species on earth
+    - They are the only birds that can fly backwards
+    - You can find them buzzing over flowers
+    Facts:
+    - Ostrich
+    - Humming Birds
+    - Duck
+    - Emu
+  - _QuesAns: Peacock
+    img: {fileID: 21300000, guid: e231549063738854b839ae27c64bed67, type: 3}
+    buzz:
+    - Rain
+    - Plumage
+    - India
+    Clue:
+    - National bird of india
+    - There knows for the beautiful pluemage
+    - The Males display their feathers to attract their femals
+    Facts:
+    - Peacock
+    - Ostrich
+    - Emu
+    - Quail
+  - _QuesAns: Ducks
+    img: {fileID: 21300000, guid: 4d84984f34483ef4e89425d9a1251fda, type: 3}
+    buzz:
+    - Water
+    - quack
+    - Swim
+    Clue:
+    - They were domesticated for their meat and eggs
+    - Donald is a popular character based on these birds
+    - They have webbed feet
+    Facts:
+    - Ducks
+    - Owls
+    - Chicken
+    - Ostrich
+  - _QuesAns: Woodpeckers
+    img: {fileID: 21300000, guid: 7acce2bf4d034824daf3d8ea544dcd92, type: 3}
+    buzz:
+    - Trees
+    - peck
+    - descent
+    Clue:
+    - They peck trees to build their homes
+    - Other birds make use of the cavities they make on trees
+    - They communicate by drumming with their beaks
+    Facts:
+    - Emu
+    - Owls
+    - Woodpeckers
+    - Ostrich
+  - _QuesAns: Turkey
+    img: {fileID: 21300000, guid: 96299587d6b3f2d4b93cf0314bb7db27, type: 3}
+    buzz:
+    - Thanksgiving
+    - USA
+    - Food
+    Clue:
+    - They are named after a country in the Middle East
+    - They were first domesticated by the native Americans
+    - One of them is pardoned by the US president every Thanksgiving day
+    Facts:
+    - Turkey
+    - Emu
+    - Ostrich
+    - Chicken
+>>>>>>> Stashed changes

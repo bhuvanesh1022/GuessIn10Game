@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AnimalGuess
   m_EditorClassIdentifier: 
   guess:
+<<<<<<< Updated upstream
   - _QuesAns: 
     img: {fileID: 0}
     buzz: []
@@ -83,3 +84,156 @@ MonoBehaviour:
     Facts: []
     availablity:
       type: 0
+=======
+  - _QuesAns: Panda
+    img: {fileID: 21300000, guid: 5a77029d88aa0d94a85740d3bc8f4f2c, type: 3}
+    buzz:
+    - Bamboo
+    - black and white
+    - cuddly
+    Clue:
+    - 'This animal is found in South China '
+    - It forms the logo for World Wildlife Fund
+    - Even though they are carnivores, they eats primarily bamboo shoots
+    Facts:
+    - Panda
+    - Rabbit
+    - Cow
+    - Zebra
+  - _QuesAns: Giraffe
+    img: {fileID: 21300000, guid: 6c0f17e780c57f941be1864782259f58, type: 3}
+    buzz:
+    - Tall
+    - herbivore
+    - Africa
+    Clue:
+    - This is the tallest animal on the planet
+    - Scientists thought that these animals grew long necks when they tried to reach
+      out to tall trees
+    - They are mostly found in African grasslands called Savannas
+    Facts:
+    - Zebra
+    - Elephant
+    - Giraffe
+    - Camel
+  - _QuesAns: Anacondas
+    img: {fileID: 21300000, guid: 90e064a7988d0ab429c8a59f1626d6bf, type: 3}
+    buzz:
+    - Amazon
+    - Non-venomous
+    - Boa
+    Clue:
+    - They are one of the largest snakes in the world
+    - They are found in tropical South America
+    - They are semi-aquatic
+    Facts:
+    - Mambas
+    - Anacondas
+    - Cobras
+    - Vipers
+  - _QuesAns: Tiger
+    img: {fileID: 21300000, guid: 91d7d9d2a3072554f8f5edc78a983d70, type: 3}
+    buzz:
+    - Bengal
+    - Camouflage
+    - Stripes
+    Clue:
+    - They are the largest cats in the world
+    - In India, their primary food is the Sambhar deer
+    - They are found in South East Asia, South Asia, and even Siberia
+    Facts:
+    - Lion
+    - Deer
+    - Cat
+    - Tiger
+  - _QuesAns: Kangaroo
+    img: {fileID: 21300000, guid: 0a6c774282ebf9e45a5af6c51af62e33, type: 3}
+    buzz:
+    - Australia
+    - Pouches
+    - Hop
+    Clue:
+    - They are marsupials that carry their babies in their pouches
+    - They are found on the Australian emblem
+    - They can stand up using their tails
+    Facts:
+    - Kangaroo
+    - Panda
+    - Tiger
+    - Deer
+  - _QuesAns: Polar Bears
+    img: {fileID: 21300000, guid: 83db273dcbeed1845a60fcbcc2883ddc, type: 3}
+    buzz:
+    - North
+    - climate change
+    - Camouflage
+    Clue:
+    - They are the largest bears in the world
+    - They are found in the Arctic region
+    - "They\u2019re strictly carnivores"
+    Facts:
+    - Panda
+    - Wolf
+    - Polar Bears
+    - 'Penguin '
+  - _QuesAns: Wolf
+    img: {fileID: 21300000, guid: 99115229a6e84264589f0356a581f613, type: 3}
+    buzz:
+    - Howl
+    - Akela
+    - packs
+    Clue:
+    - They are the ancestors of dogs
+    - "Their collective noun is a \u201Cpack\u201D"
+    - In the Mahabharat, Bhima is described as having the stomach of this animal
+    Facts:
+    - Wolf
+    - Lion
+    - Fox
+    - Tiger
+  - _QuesAns: Zebra
+    img: {fileID: 21300000, guid: a180aa9ac26f8f746a4c324911ba336a, type: 3}
+    buzz:
+    - Stripes
+    - Herbivores
+    - Equine
+    Clue:
+    - "They\u2019re found only in Africa"
+    - They graze mainly in Savannas
+    - Preyed mostly by lions
+    Facts:
+    - Camel
+    - Deer
+    - Zebra
+    - Cow
+  - _QuesAns: Blue Whale
+    img: {fileID: 21300000, guid: 12535671053bd2144ac6ee90c8b23b70, type: 3}
+    buzz:
+    - Marine
+    - blowhole
+    - ocean
+    Clue:
+    - They are the largest animals on earth
+    - They are found all over the world
+    - "Their young one is called a \u201Ccalf\u201D"
+    Facts:
+    - Penguin
+    - Blue Whale
+    - Camel
+    - Kangaroo
+  - _QuesAns: Asian Elephant
+    img: {fileID: 21300000, guid: c2b38fb5cf4523342932f6102de8cae0, type: 3}
+    buzz:
+    - Jumbo
+    - tuskers
+    - Asian
+    Clue:
+    - "They\u2019re smaller than their African counterparts"
+    - They are deified in India
+    - They were used in warfare by ancient kingdoms
+    Facts:
+    - Asian Elephant
+    - Blue Whale
+    - Tiger
+    - Wolf
+>>>>>>> Stashed changes
