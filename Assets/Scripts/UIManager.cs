@@ -31,10 +31,13 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    //private void Start()
+    //{
+    //    GameHandler.gameHandler.UpdatePencils();
+    //}
+
     private void Update()
     {
-        pencilCountText.text = GameHandler.gameHandler.pencils.ToString();
-
         if (Input.GetKeyDown(KeyCode.Escape)) { CloseNow(); }
     }
 

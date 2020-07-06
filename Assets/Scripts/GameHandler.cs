@@ -29,7 +29,9 @@ public class GameHandler : MonoBehaviour
 
     private void Update()
     {
-        UIManager.uim.pencilCountText.text = pencils.ToString();
+        GameHandler.gameHandler.UpdatePencils();
     }
+
+    public void UpdatePencils() { UIManager.uim.pencilCountText.text = pencils.ToString(); }
 
 }
