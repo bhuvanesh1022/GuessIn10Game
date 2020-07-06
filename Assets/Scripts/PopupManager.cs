@@ -5,6 +5,9 @@ using TMPro;
 
 public class PopupManager : MonoBehaviour
 {
+    public static PopupManager popupManager;
+
+
     public GameObject notEnoughPopup;
     public GameObject unlockPopup;
     public GameObject SuccessPopup;
@@ -18,34 +21,19 @@ public class PopupManager : MonoBehaviour
 
     private int unlockingType;
 
-    public void OnUnlock()
+    private void Awake()
     {
-        if (GameHandler.gameHandler.pencils >= pencilsToUnlock)
+        if (PopupManager.popupManager == null)
         {
-            GameHandler.gameHandler.types[unlockingType] = true;
-            GameHandler.gameHandler.pencils -= pencilsToUnlock;
-            UIManager.uim.CloseNow();
-
-            UIManager.uim.buttons[unlockingType].transform.parent.gameObject.SetActive(false);
-            SuccessPopup.SetActive(true);
-            currentPopup = SuccessPopup;
-            SuccessPopup.GetComponentInChildren<TextMeshProUGUI>().text = string.Format("You have Successfully Unlocked {0}!", UIManager.uim.buttons[unlockingType].name);
-
-            Debug.Log("Unlocked");
+            PopupManager.popupManager = this;
         }
         else
         {
-            Debug.Log("NotEnoughPencil");
-            NotEnoughPencil();
+            if (PopupManager.popupManager != this)
+            {
+                Destroy(gameObject);
+            }
         }
-    }
-
-    public void NotEnoughPencil()
-    {
-        notEnoughPencilsText.text = (pencilsToUnlock - GameHandler.gameHandler.pencils).ToString();
-        notEnoughPopup.SetActive(true);
-        currentPopup.SetActive(false);
-        currentPopup = notEnoughPopup;
     }
 
     public void ToUnlockGuess(int id)
@@ -63,7 +51,7 @@ public class PopupManager : MonoBehaviour
                 break;
 
             case 2:
-                pencilsToUnlock = 20;
+                pencilsToUnlock = 15;
                 break;
 
             default:
@@ -71,5 +59,61 @@ public class PopupManager : MonoBehaviour
         }
 
         pencilsToUnlockText.text = pencilsToUnlock.ToString();
+    }
+
+    public void OnUnlock()
+    {
+        if (GameHandler.gameHandler.pencils < pencilsToUnlock)
+        {
+
+            Debug.Log("NotEnoughPencil");
+            NotEnoughPencil();
+        }
+        else
+        {
+            GameHandler.gameHandler.types[unlockingType] = true;
+            GameHandler.gameHandler.pencils -= pencilsToUnlock;
+            //GameHandler.gameHandler.UpdatePencils();
+            //UIManager.uim.CloseNow();
+
+            UIManager.uim.buttons[unlockingType].transform.parent.gameObject.SetActive(false);
+
+            OnSuccessEvent("unlock", 0);
+
+            Debug.Log("Unlocked");
+        }
+    }
+
+    public void NotEnoughPencil()
+    {
+        notEnoughPencilsText.text = (pencilsToUnlock - GameHandler.gameHandler.pencils).ToString();
+        notEnoughPopup.SetActive(true);
+        currentPopup.SetActive(false);
+        currentPopup = notEnoughPopup;
+    }
+
+    public void OnSuccessEvent(string curEvent, int pencils)
+    {
+        SuccessPopup.SetActive(true);
+        currentPopup.SetActive(false);
+        currentPopup = SuccessPopup;
+
+        switch (curEvent)
+        {
+            case "unlock":
+                SuccessPopup.GetComponentInChildren<TextMeshProUGUI>().text = string.Format
+                    ("You have Successfully Unlocked {0}!", UIManager.uim.buttons[unlockingType].name);
+                break;
+
+            case "purchase":
+                SuccessPopup.GetComponentInChildren<TextMeshProUGUI>().text = string.Format
+                    ("You have Successfully Purchased {0} Pencils", pencils.ToString());
+                break;
+
+            default:
+                break;
+        }
+
+
     }
 }
