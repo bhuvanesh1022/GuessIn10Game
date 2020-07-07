@@ -95,6 +95,6 @@ public class CardManager : MonoBehaviour
     // Reset Game
     public void Loadscene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

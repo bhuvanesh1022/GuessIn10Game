@@ -61,7 +61,7 @@ public class UIManager : MonoBehaviour
         if (GameHandler.gameHandler.types[id])
         {
             GameHandler.gameHandler.sceneId = id;
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         else
         {
