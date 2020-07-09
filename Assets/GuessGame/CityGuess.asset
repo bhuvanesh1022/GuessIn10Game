@@ -71,7 +71,7 @@ MonoBehaviour:
     Facts:
     - Melbourne
     - Canberra
-    - Cydney
+    - Sydney
     - Perth
   - _QuesAns: Paris
     img: {fileID: 21300000, guid: 92ad5ee11a8409b4dab20701f29c468a, type: 3}

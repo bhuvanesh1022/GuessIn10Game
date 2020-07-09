@@ -29,7 +29,7 @@ public class AdManager : MonoBehaviour, IUnityAdsListener
                 Destroy(gameObject);
             }
         }
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
